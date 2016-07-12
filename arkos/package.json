@@ -2,8 +2,19 @@
   "name": "<%= appNameSlug %>",
   "description": "<%= appDescription %>",
   "version": "<%= appVersion %>",
+  "scripts": {
+    "start": "node server.js"
+  },
   "author": {
     "name": "<%= appAuthor %>",
     "url": "<%= appEmail %>"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "consign": "^0.1.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.4",
+    "redis": "^2.6.2",
+    "strict-mode": "^0.7.0"
   }
 }
