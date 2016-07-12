@@ -11,6 +11,7 @@ require('strict-mode')(function () {
     .then('interpreters')
     .then('models')
     .then('routes')
-    .then('boot.js')
     .into(app);
 });
+
+app.listen(app.get('port'));
