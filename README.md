@@ -1,6 +1,6 @@
 # Slush ARKOS
 
-> A slush generator for a simple ARKOS project.
+> A slush generator for ARKOS projects.
 
 ## How to install and use the generator?
 
@@ -68,4 +68,4 @@ See [Releases](https://github.com/ZeuCxb/slush-arkos/releases) for detailed chan
 
 ## License
 
-[MIT License](https://github.com/ZeuCxb/slush-arkos/blob/master/LICENSE.md) © [ZeuCxb](https://www.youtube.com/EuProgramadorOficial)
+[MIT License](https://github.com/ZeuCxb/slush-arkos/blob/master/LICENSE.md) © [Zeu Cxb](https://www.youtube.com/EuProgramadorOficial)
