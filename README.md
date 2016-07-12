@@ -1,3 +1,5 @@
+![Slush arkos Logo](https://github.com/ZeuCxb/slush-arkos/blob/master/logo.png)
+
 # Slush ARKOS
 
 > A slush generator for ARKOS projects.
