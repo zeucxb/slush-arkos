@@ -1,6 +1,6 @@
 {
   "name": "slush-arkos",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Generate a simple api ARKOS project.",
   "main": "slushfile.js",
   "keywords": [
