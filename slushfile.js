@@ -1,5 +1,5 @@
 /*
- * slush-mean
+ * slush-arkos
  * https://github.com/ZeuCxb/slush-arkos
  *
  * Copyright (c) 2016, ZeuCxb
