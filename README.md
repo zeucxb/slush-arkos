@@ -1,4 +1,4 @@
-# Slush Slush-arkos [![Build Status](https://secure.travis-ci.org/ZeuCxb/slush-arkos.png?branch=master)](https://travis-ci.org/ZeuCxb/slush-arkos) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-arkos.png)](http://badges.enytc.com/for/npm/slush-arkos)
+# Slush Arkos [![Build Status](https://secure.travis-ci.org/ZeuCxb/slush-arkos.png?branch=master)](https://travis-ci.org/ZeuCxb/slush-arkos) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-arkos.png)](http://badges.enytc.com/for/npm/slush-arkos)
 
 > A slush generator for ARKOS projects.
 
@@ -22,7 +22,7 @@ $ mkdir my-slush-arkos
 Run the generator from within the new folder:
 
 ```bash
-$ cd my-slush-arkos && slush slush-arkos
+$ cd my-slush-arkos && slush arkos
 ```
 
 ## Getting To Know Slush
