@@ -14,7 +14,7 @@ describe('Users', function() {
     User.collection.drop();
 
     beforeEach(function(done) {
-        var newUser = new User({
+        const newUser = new User({
             firstname: 'Eliseu',
             lastname: 'Codinhoto'
         });
@@ -40,6 +40,35 @@ describe('Users', function() {
                 res.body.response.should.be.a('array');
                 done();
             });
+    });
+
+    it('should list a SINGLE user on /user/<id> GET', function(done) {
+        const newUser = new User({
+            firstname: 'Zeu',
+            lastname: 'Cxb'
+        });
+
+        newUser.save(function(err, user) {
+
+            chai.request(server)
+                .get('/user/' + user.id)
+                .end(function(err, res) {
+                    res.should.have.status(200);
+                    res.should.be.json;
+                    res.body.should.be.a('object');
+                    res.body.should.have.property('success');
+                    res.body.should.have.property('response');
+                    res.body.success.should.be.true;
+                    res.body.response.should.be.a('object');
+                    res.body.response.should.have.property('_id');
+                    res.body.response.should.have.property('firstname');
+                    res.body.response.should.have.property('lastname');
+                    res.body.response.firstname.should.equal('Zeu');
+                    res.body.response.lastname.should.equal('Cxb');
+                    res.body.response._id.should.equal(user.id);
+                    done();
+                });
+        });
     });
 
     it('should add a SINGLE user on /users POST', function(done) {
