@@ -1,73 +1,69 @@
-![Slush arkos Logo](https://github.com/ZeuCxb/slush-arkos/blob/master/logo.png)
-
-# Slush ARKOS
+# Slush Slush-arkos [![Build Status](https://secure.travis-ci.org/ZeuCxb/slush-arkos.png?branch=master)](https://travis-ci.org/ZeuCxb/slush-arkos) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-arkos.png)](http://badges.enytc.com/for/npm/slush-arkos)
 
 > A slush generator for ARKOS projects.
 
-## How to install and use the generator?
 
-Install the slush:
+## Getting Started
 
-```sh
-$ [sudo] npm install -g slush
+Install `slush-arkos` globally:
+
+```bash
+$ npm install -g slush-arkos
 ```
 
-Install the arkos generator:
+### Usage
 
-```sh
-$ [sudo] npm install -g slush-arkos
+Create a new folder for your project:
+
+```bash
+$ mkdir my-slush-arkos
 ```
 
-Use the generator:
+Run the generator from within the new folder:
 
-```sh
-$ mkdir myApi
-$ cd myApi
-$ slush arkos
+```bash
+$ cd my-slush-arkos && slush slush-arkos
 ```
 
-## The generated program
+## Getting To Know Slush
 
-Folders Structure:
+Slush is a tool that uses Gulp for project scaffolding.
 
-	.
-	├── configs/
-	|   └── init.js
-	├── drivers/
-	|   |── mongo.js
-	|   └── redis.js
-	├── helpers/
-	|   └── request.js
-	├── interpreters/
-	|   └── db.js
-	├── models/
-	|   └── user.js
-	├── node-modules/
-	├── package.json
-	├── routes/
-	|   └── user.js
-	├── server.js
-	├── .eslintrc.json
-	└── .gitignore
+Slush does not contain anything "out of the box", except the ability to locate installed slush generators and to run them with liftoff.
 
-Running the example:
-
-- `$ npm start`: Start the server.
-
-## Versioning
-
-To keep better organization of releases we follow the [Semantic Versioning 2.0.0](http://semver.org/) guidelines.
+To find out more about Slush, check out the [documentation](https://github.com/slushjs/slush).
 
 ## Contributing
 
-Find on our [issues](https://github.com/ZeuCxb/slush-arkos/issues/) the next steps of the project ;)
-<br>
-Want to contribute? [Follow these recommendations](https://github.com/ZeuCxb/slush-arkos/blob/master/CONTRIBUTING.md).
+See the [CONTRIBUTING Guidelines](https://github.com/ZeuCxb/slush-arkos/blob/master/CONTRIBUTING.md)
 
-## History
+## Support
+If you have any problem or suggestion please open an issue [here](https://github.com/ZeuCxb/slush-arkos/issues).
 
-See [Releases](https://github.com/ZeuCxb/slush-arkos/releases) for detailed changelog.
+## License 
 
-## License
+The MIT License
 
-[MIT License](https://github.com/ZeuCxb/slush-arkos/blob/master/LICENSE.md) © [Zeu Cxb](https://www.youtube.com/EuProgramadorOficial)
+Copyright (c) 2016, Zeu Cxb
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+

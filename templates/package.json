@@ -1,0 +1,30 @@
+{
+  "name": "<%= appName %>",
+  "description": "<%= appDescription %>",
+  "version": "<%= appVersion %>",
+  "homepage": "https://github.com/<%= userName %>/<%= appName %>",
+  "author": {
+    "name": "<%= authorName %>",
+    "email": "<%= authorEmail %>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/<%= userName %>/<%= appNameSlug %>"
+  },
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "consign": "^0.1.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.4",
+    "redis": "^2.6.2",
+    "strict-mode": "^0.7.0"
+  },
+  "engine": {
+    "node": ">=5.0.0"
+  }
+}

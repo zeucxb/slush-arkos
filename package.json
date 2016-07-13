@@ -1,32 +1,40 @@
 {
-  "name": "slush-arkos",
-  "version": "1.1.1",
-  "description": "A slush generator for ARKOS projects.",
-  "main": "slushfile.js",
-  "keywords": [
-    "slushgenerator",
-    "node",
-    "api",
-    "arkos",
-    "mongo"
-  ],
-  "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-conflict": "^0.4.0",
-    "gulp-install": "^0.6.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-template": "^4.0.0",
-    "inquirer": "^1.1.2",
-    "underscore.string": "^3.3.4"
-  },
-  "author": "ZeuCxb",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ZeuCxb/slush-arkos.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ZeuCxb/slush-arkos/issues"
-  },
-  "homepage": "https://github.com/ZeuCxb/slush-arkos#readme"
+    "name": "slush-arkos",
+    "description": "A slush generator for ARKOS projects.",
+    "version": "1.2.1",
+    "homepage": "https://github.com/ZeuCxb/slush-arkos",
+    "author": {
+        "name": "Zeu Cxb",
+        "email": "zeucxb@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/ZeuCxb/slush-arkos.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ZeuCxb/slush-arkos/issues"
+    },
+    "license": "MIT",
+    "main": "slushfile.js",
+    "engines": {
+        "node": ">= 0.10.26",
+        "npm": ">=1.4.3"
+    },
+    "scripts": {
+        "test": "echo \"No tests\""
+    },
+    "dependencies": {
+        "slush": ">=1.0.0",
+        "gulp": "^3.6.2",
+        "gulp-template": "^0.1.1",
+        "gulp-install": "^0.1.4",
+        "gulp-conflict": "^0.1.1",
+        "gulp-rename": "^1.2.0",
+        "underscore.string": "^2.3.3",
+        "inquirer": "^0.8.0",
+        "iniparser": "^1.0.5"
+    },
+    "keywords": [
+        "slushgenerator"
+    ]
 }
