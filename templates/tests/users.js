@@ -32,7 +32,6 @@ describe('Users', function() {
         chai.request(server)
             .get('/users')
             .end(function(err, res) {
-                console.log(res);
                 res.should.have.status(200);
                 res.should.be.json;
                 res.body.should.have.property('success');
