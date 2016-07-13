@@ -1,9 +1,16 @@
 const mongoose = require('mongoose');
+const config = require('./mongo_config');
 
 module.exports = app => {
 
     // CONFIG
-	mongoose.connect('mongodb://localhost/arkos/');
+	mongoose.connect(config.mongoURI[app.settings.env], err => {
+        if(err) {
+            console.log('Error connecting to the database. ' + err);
+        } else {
+            console.log('Connected to Database: ' + config.mongoURI[app.settings.env]);
+        }
+    });
 	
 	mongoose.connection.on('connected', () => {
 		console.log('Mongoose conectado');

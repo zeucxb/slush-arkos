@@ -15,3 +15,5 @@ require('strict-mode')(function () {
 });
 
 app.listen(app.get('port'));
+
+module.exports = app;

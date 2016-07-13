@@ -1,5 +1,5 @@
 module.exports = () => {
-    return (res, sucess, response, status = 200) => {
-        res.status(status).json({sucess, response});
+    return (res, success, response, status = 200) => {
+        res.status(status).json({success, response});
     };
 };

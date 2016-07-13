@@ -8,11 +8,11 @@
         "sourceType": "module"
     },
     "rules": {
+        // "indent": [
+        //     "error",
+        //     "tab"
+        // ],
         "no-console": 0,
-        "indent": [
-            "error",
-            "tab"
-        ],
         "linebreak-style": [
             "error",
             "unix"
@@ -23,7 +23,7 @@
         ],
         "semi": [
             "error",
-            "never"
+            "always"
         ]
     }
 }
